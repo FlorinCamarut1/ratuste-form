@@ -7,7 +7,7 @@ function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
     <header>
-      <nav className=" w-full bg-gradient-to-r from-cyan-500 to-blue-500  top-0 left-0 right-0 z-10 ">
+      <nav className=" w-full  bg-rata-bg  top-0 left-0 right-0 z-10 ">
         {/* ------mobile menu----------------- */}
         <div className="justify-between px-10  md:items-center md:flex md:px-8">
           <div className="flex py-5  md:block items-center justify-between ">

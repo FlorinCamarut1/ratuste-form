@@ -9,7 +9,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "rata-bg": "#2A4452",
+      },
+    },
   },
   plugins: [],
 };
