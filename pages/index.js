@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import NavBar from "@/components/NavBar";
 import TryOutCard from "@/components/TryOutCard";
+import Overview from "@/components/Overview";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,12 +18,7 @@ export default function Home() {
       <main>
         <NavBar />
         <TryOutCard />
-        <section
-          id="overview"
-          className="h-screen bg-slate-500  flex items-center justify-center"
-        >
-          <h1>Overview</h1>
-        </section>
+        <Overview />
         <section
           id="features"
           className="h-screen bg-slate-600  flex items-center justify-center"
