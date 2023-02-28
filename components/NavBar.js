@@ -36,23 +36,23 @@ function NavBar() {
                 navbar ? "p-12 md:p-0 block" : "hidden"
               }`}
             >
-              <ul className="  text-white items-center justify-center md:flex">
-                <li className="pb-2 text-xl text-white py-2 md:px-6 text-center cursor-pointer active:scale-50 hover:shadow-md rounded-md ">
+              <ul className=" h-screen md:h-auto text-white items-center justify-center md:flex">
+                <li className="pb-4 text-xl text-white py-2 md:px-6 text-center cursor-pointer active:scale-50 hover:underline ">
                   <Link href="#overview" onClick={() => setNavbar(!navbar)}>
                     Overview
                   </Link>
                 </li>
-                <li className="pb-2 text-xl text-white py-2 md:px-6 text-center cursor-pointer active:scale-50 hover:shadow-md rounded-md">
+                <li className="pb-4 text-xl text-white py-2 md:px-6 text-center cursor-pointer active:scale-50 hover:underline">
                   <Link href="#features" onClick={() => setNavbar(!navbar)}>
                     Features
                   </Link>
                 </li>
-                <li className="pb-2 text-xl text-white py-2 md:px-6 text-center cursor-pointer active:scale-50 hover:shadow-md rounded-md">
+                <li className="pb-4 text-xl text-white py-2 md:px-6 text-center cursor-pointer active:scale-50 hover:underline">
                   <Link href="#pricing" onClick={() => setNavbar(!navbar)}>
                     Pricing
                   </Link>
                 </li>
-                <li className="px-4 text-xl text-white py-2 md:px-6 text-center cursor-pointer active:scale-50 hover:shadow-md rounded-md">
+                <li className="pb-4 text-xl text-white py-2 md:px-6 text-center cursor-pointer active:scale-50 hover:underline">
                   <Link href="#contact" onClick={() => setNavbar(!navbar)}>
                     Contact
                   </Link>
