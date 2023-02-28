@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import NavBar from "@/components/NavBar";
+import TryOutCard from "@/components/TryOutCard";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <main>
         <NavBar />
+        <TryOutCard />
         <section
           id="overview"
           className="h-screen bg-slate-500  flex items-center justify-center"
