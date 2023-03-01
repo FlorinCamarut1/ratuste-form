@@ -38,22 +38,22 @@ function NavBar() {
             >
               <ul className=" h-screen md:h-auto text-white items-center justify-center md:flex">
                 <li className="pb-4 text-xl text-white py-2 md:px-6 text-center cursor-pointer active:scale-50 hover:underline ">
-                  <Link href="#overview" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#overview" onClick={() => setNavbar(false)}>
                     Overview
                   </Link>
                 </li>
                 <li className="pb-4 text-xl text-white py-2 md:px-6 text-center cursor-pointer active:scale-50 hover:underline">
-                  <Link href="#features" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#features" onClick={() => setNavbar(false)}>
                     Features
                   </Link>
                 </li>
                 <li className="pb-4 text-xl text-white py-2 md:px-6 text-center cursor-pointer active:scale-50 hover:underline">
-                  <Link href="#pricing" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#pricing" onClick={() => setNavbar(false)}>
                     Pricing
                   </Link>
                 </li>
                 <li className="pb-4 text-xl text-white py-2 md:px-6 text-center cursor-pointer active:scale-50 hover:underline">
-                  <Link href="#contact" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#contact" onClick={() => setNavbar(false)}>
                     Contact
                   </Link>
                 </li>
