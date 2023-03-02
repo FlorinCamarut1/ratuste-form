@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import NavBar from "@/components/NavBar";
 import TryOutCard from "@/components/TryOutCard";
 import Overview from "@/components/Overview";
+import Features from "@/components/Features";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,12 +20,7 @@ export default function Home() {
         <NavBar />
         <TryOutCard />
         <Overview />
-        <section
-          id="features"
-          className="h-screen bg-slate-600  flex items-center justify-center"
-        >
-          <h1>Features</h1>
-        </section>
+        <Features />
         <section
           id="pricing"
           className="h-screen bg-red-400  flex items-center justify-center"
