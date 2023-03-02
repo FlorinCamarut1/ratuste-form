@@ -33,31 +33,31 @@ function NavBar() {
           <div>
             <div
               className={` md:block md:pb-0 md:mt-0 ${
-                navbar ? "p-12 md:p-0 block" : "hidden"
+                navbar ? "p-12 md:p-0 block " : "hidden"
               }`}
             >
-              <ul className=" h-screen md:h-auto text-white items-center justify-center md:flex">
-                <li className="pb-4 text-xl text-white py-2 md:px-6 text-center cursor-pointer active:scale-50 hover:underline ">
+              <div className=" h-screen md:h-auto text-white items-center justify-center md:flex">
+                <button className="block m-auto pb-4 text-xl text-white py-2 md:px-6  cursor-pointer active:scale-50 hover:underline ">
                   <Link href="#overview" onClick={() => setNavbar(false)}>
                     Overview
                   </Link>
-                </li>
-                <li className="pb-4 text-xl text-white py-2 md:px-6 text-center cursor-pointer active:scale-50 hover:underline">
+                </button>
+                <button className="block m-auto pb-4 text-xl text-white py-2 md:px-6  cursor-pointer active:scale-50 hover:underline">
                   <Link href="#features" onClick={() => setNavbar(false)}>
                     Features
                   </Link>
-                </li>
-                <li className="pb-4 text-xl text-white py-2 md:px-6 text-center cursor-pointer active:scale-50 hover:underline">
+                </button>
+                <button className="block m-auto pb-4 text-xl text-white py-2 md:px-6  cursor-pointer active:scale-50 hover:underline">
                   <Link href="#pricing" onClick={() => setNavbar(false)}>
                     Pricing
                   </Link>
-                </li>
-                <li className="pb-4 text-xl text-white py-2 md:px-6 text-center cursor-pointer active:scale-50 hover:underline">
+                </button>
+                <button className="block m-auto pb-4 text-xl text-white py-2 md:px-6  cursor-pointer active:scale-50 hover:underline">
                   <Link href="#contact" onClick={() => setNavbar(false)}>
                     Contact
                   </Link>
-                </li>
-              </ul>
+                </button>
+              </div>
             </div>
           </div>
           {/* End mobile menu */}
