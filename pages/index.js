@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import NavBar from "@/components/NavBar";
 import TryOutCard from "@/components/TryOutCard";
-import Overview from "@/components/Overview";
-import Features from "@/components/Features";
+
+import Features from "@/components/Subscription";
+import Subscription from "@/components/Features";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,22 +17,16 @@ export default function Home() {
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className="bg-rata-bg">
         <NavBar />
         <TryOutCard />
-        <Overview />
+        <Subscription />
         <Features />
         <section
-          id="pricing"
+          id="footer"
           className="h-screen bg-red-400  flex items-center justify-center"
         >
-          <h1>Pricing</h1>
-        </section>
-        <section
-          id="contact"
-          className="h-screen bg-slate-500  flex items-center justify-center"
-        >
-          <h1>Contact</h1>
+          <h1>Footer</h1>
         </section>
       </main>
     </>

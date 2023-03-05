@@ -2,52 +2,53 @@ import React from "react";
 import Image from "next/legacy/image";
 function Features() {
   return (
-    <section id="features" className="h-auto py-10">
-      <div className="px-5 md:px-20 md:grid grid-cols-2 py-10 items-center justify-center">
-        <div className="relative h-20 mt-20 mb-20">
-          <Image src="/next.svg" layout="fill" objectFit="contain" />
-        </div>
-        <div>
-          <h2 className="text-2xl">Book a room from anywhere, anytime</h2>
-          <p>
-            Does it happen to you that you need space for your meetings and when
-            the time comes, someone is already in the room? Or will someone
-            interrupt you during the meeting because they do not know that the
-            room is occupied? Use roomly to book a room and you will never have
-            to interrupt your flow of thoughts again. Simply book a room from
-            anywhere and make the most of the meeting room's capacity.
+    <div className=" py-10 px-5 md:px-20 ">
+      <section id="features" className="h-auto md:grid md:grid-cols-2">
+        {/* stanga cele 2 */}
+        <div className="md:pr-5  md:border-r-2">
+          <div className="relative py-10">
+            <h1 className="relative text-xl font-bold text-white ">
+              Download Roomly
+            </h1>
+          </div>
+          <p className="text-white tracking-wider">
+            Use any tablet or mobile phone and download the application from
+            Google or Apple store. Place your device near meeting room idealy,
+            so everyone knows its schedule.
+          </p>
+          <div className="relative h-20 mt-20 mb-20 ">
+            <Image src="/next.svg" layout="fill" objectFit="contain" />
+          </div>
+          <div className="relative py-10">
+            <h1 className="relative text-xl font-bold text-white">
+              Book meeting
+            </h1>
+          </div>
+          <p className="text-white tracking-wider">
+            Simply create an event using the app on the smart device, or invite
+            the meeting room using Outlook and thats it.
           </p>
         </div>
-      </div>
-      <div className="px-5 md:px-20 md:grid grid-cols-2 py-10 items-center justify-center">
-        <div>
-          <h2 className="text-2xl">Watch meeting progress</h2>
-          <p>
-            Roomly shows if a meeting is in progress, so anyone who would like
-            to disturb you will know that they should not dare to take the door
-            handle and disturb you.
+        {/* dreapta cele 2 */}
+        <div className="md:pl-5">
+          <div className="relative h-20 mt-20 mb-20">
+            <Image src="/next.svg" layout="fill" objectFit="contain" />
+          </div>
+          <div className="relative py-10">
+            <h1 className="relative text-xl font-bold text-white">
+              Create room
+            </h1>
+          </div>
+          <p className="text-white tracking-wider">
+            Create Microsoft account with desired name of your meeting room and
+            log in to Roomly.
           </p>
+          <div className="relative h-20 mt-20 mb-20 ">
+            <Image src="/next.svg" layout="fill" objectFit="contain" />
+          </div>
         </div>
-        <div className="relative h-20 mt-20 mb-20">
-          <Image src="/next.svg" layout="fill" objectFit="contain" />
-        </div>
-      </div>
-      <div className="px-5 md:px-20 md:grid grid-cols-2 py-10 items-center justify-center">
-        <div className="relative h-20 mt-20 mb-20">
-          <Image src="/next.svg" layout="fill" objectFit="contain" />
-        </div>
-        <div>
-          <h2 className="text-2xl">Check room availability</h2>
-          <p>
-            If you are planning any event for which you need a meeting room, all
-            you have to do is look at the room calendar, where you will
-            immediately find whether it is available to use. Then all you have
-            to do is create an event and wait for the meeting room to confirm
-            the invitation.
-          </p>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 }
 

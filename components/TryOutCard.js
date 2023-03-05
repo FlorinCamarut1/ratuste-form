@@ -12,12 +12,12 @@ function TryOutCard() {
           Don't have a place to hold meetings and video calls? Are they
           disturbing you in the middle of a meeting? Try Roomly
         </p>
-        <button className="py-2 px-4 bg-white text-rata-bg rounded-md mt-2 active:scale-90">
-          Try out Now
+        <button className="py-1 px-7 bg-white text-rata-bg rounded-sm mt-2 active:scale-90 font-bold">
+          GET STARTED
         </button>
       </div>
 
-      <div className="relative h-[100px] md:h-[200px] mt-10 md:mt-0 ">
+      <div className="relative h-[50px] md:h-[200px] mt-10 md:mt-0 ">
         <Image src="/next.svg" layout="fill" objectFit="contain" />
       </div>
     </div>
