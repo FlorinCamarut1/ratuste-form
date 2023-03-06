@@ -12,9 +12,9 @@ function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
     <nav>
-      <div className="flex  justify-between items-center justify-center px-5 py-4 md:py-3 md:pl-9 md:pr-0 ">
+      <div className="flex  justify-between items-center justify-center px-5 py-4 md:py-3 md:pl-9 md:pr-0 xl:pl-10 ">
         <h1
-          className={`${roboto_mono.className} text-white text-3xl pr-4 md:p-0`}
+          className={`${roboto_mono.className} text-white text-3xl pr-4 md:p-0 xl:text-4xl`}
         >
           IntelligentForms
         </h1>
@@ -32,7 +32,7 @@ function NavBar() {
         </div>
         {/* nav cu meniu */}
         <div
-          className={`hidden md:inline  space-x-7 text-lg text-white bg-bg-nav py-5 px-5 rounded-l-3xl ${roboto_mono.className} `}
+          className={`hidden md:inline  space-x-7 text-lg text-white bg-bg-nav py-5 px-5 rounded-l-3xl ${roboto_mono.className} xl:text-xl  `}
         >
           <button>
             <Link href="#footer" />
