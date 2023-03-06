@@ -14,7 +14,7 @@ export default function Home() {
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-rata-bg">
+      <main className="bg-gradient-to-b from-rata-bg to-rata-bg2">
         <NavBar />
         <TryOutCard />
 

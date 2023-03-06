@@ -11,7 +11,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "rata-bg": "#2A4452",
+        "rata-bg": "#1A2A34",
+        "rata-bg2": "#77BDDF",
       },
     },
   },

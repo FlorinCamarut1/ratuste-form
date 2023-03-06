@@ -3,7 +3,7 @@ import Image from "next/legacy/image";
 
 function TryOutCard() {
   return (
-    <div className="h-[500px] bg-rata-bg px-5 md:px-20 py-2 md:grid grid-cols-2 items-center justify-center">
+    <div className="h-[500px] px-5 md:px-20 py-2 md:grid grid-cols-2 items-center justify-center">
       <div className="md:py-20 pr-20 items-center ">
         <h2 className="text-3xl font-bold text-white tracking-wide">
           The smartest way to manage your meetings
