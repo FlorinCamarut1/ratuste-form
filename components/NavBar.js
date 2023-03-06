@@ -18,7 +18,7 @@ function NavBar() {
         >
           IntelligentForms
         </h1>
-        <div className="md:hidden ">
+        <div className="md:hidden -m-3">
           <button
             className="py-2 px-2 rounded-full outline-none active:scale-50 text-white "
             onClick={() => setNavbar(!navbar)}
