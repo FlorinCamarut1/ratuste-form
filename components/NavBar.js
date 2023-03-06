@@ -12,13 +12,13 @@ function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
     <nav>
-      <div className="flex md:inline justify-between items-center justify-center px-5 py-5 md:py-0 md:px-0">
-        <h1 className={`${roboto_mono.className} text-white text-2xl`}>
+      <div className="flex md:inline justify-between items-center justify-center px-5 py-4 md:py-0 md:px-0">
+        <h1 className={`${roboto_mono.className} text-white text-2xl pr-4`}>
           IntelligentForms
         </h1>
         <div className="md:hidden">
           <button
-            className="py-2 px-2 rounded-full outline-none active:scale-50 text-white"
+            className="py-3 px-3 rounded-full outline-none active:scale-50 text-white"
             onClick={() => setNavbar(!navbar)}
           >
             {navbar ? (
