@@ -18,21 +18,21 @@ function NavBar() {
         >
           IntelligentForms
         </h1>
-        <div className="md:hidden">
+        <div className="md:hidden ">
           <button
-            className="py-3 px-3 rounded-full outline-none active:scale-50 text-white"
+            className="py-2 px-2 rounded-full outline-none active:scale-50 text-white "
             onClick={() => setNavbar(!navbar)}
           >
             {navbar ? (
-              <XCircleIcon width={30} height={30} />
+              <XCircleIcon width={40} height={40} />
             ) : (
-              <MenuIcon width={30} height={30} />
+              <MenuIcon width={40} height={40} />
             )}
           </button>
         </div>
         {/* nav cu meniu */}
         <div
-          className={`hidden md:inline  space-x-7 text-lg text-white bg-bg-nav py-5 px-5 rounded-l-3xl ${roboto_mono.className} mt-1`}
+          className={`hidden md:inline  space-x-7 text-lg text-white bg-bg-nav py-5 px-5 rounded-l-3xl ${roboto_mono.className} `}
         >
           <button>
             <Link href="#footer" />
